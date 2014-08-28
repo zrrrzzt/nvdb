@@ -1,0 +1,38 @@
+{
+  "name": "nvdb",
+  "description": "Connect to the Norwegian Public Road Administration's API",
+  "version": "0.0.1",
+  "author": {
+    "name": "Geir Gåsodden",
+    "email": "geir.gasodden@pythonia.no",
+    "url": "https://github.com/zrrrzzt"
+  },
+  "main": "index.js",
+  "bin": {
+    "nvdb": "cli.js"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec test/*.js"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/zrrrzzt/nvdb.git"
+  },
+  "bugs": {
+    "url": "http://github.com/zrrrzzt/nvdb/issues"
+  },
+  "dependencies": {
+    "minimist": "^1.1.0",
+    "request": "^2.40.0"
+  },
+  "devDependencies": {
+    "mocha": "^1.21.4"
+  }
+}
