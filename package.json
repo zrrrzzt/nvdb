@@ -33,6 +33,6 @@
     "request": "^2.40.0"
   },
   "devDependencies": {
-    "mocha": "^3.1.2"
+    "mocha": "^4.0.0"
   }
 }
